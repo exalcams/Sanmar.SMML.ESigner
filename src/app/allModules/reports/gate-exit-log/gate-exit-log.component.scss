@@ -1,0 +1,73 @@
+@import "src/@fuse/scss/fuse";
+
+#gatexitlog {
+
+  .center{
+    padding: 5px 5px 5px 5px;
+  }
+
+  .data {
+    // display: block;
+    // width: 95vw;
+    overflow: auto;
+    height: 50vh !important;
+    min-height: 50vh !important;
+    max-height: 50vh !important;
+    .table {
+      width: 100%;
+      max-width: 100%;
+      overflow: auto;
+      margin-bottom: 10px;
+      display: table;
+      border-collapse: collapse;
+      margin: 0px;
+      // background-color: rgb(238, 238, 238);
+    }
+
+    .row,
+    .header-row {
+      display: table-row;
+      min-height: 40px !important;
+    }
+
+    .cell,
+    .header-cell {
+      word-wrap: initial;
+      display: table-cell;
+          padding: 0px 10px;
+      line-break: unset;
+      width: fit-content;
+      white-space: nowrap;
+      overflow: hidden;
+      vertical-align: middle;
+      text-align: center;
+    }
+
+    .header-row,
+    .header-cell {
+      margin: 0 auto;
+      min-height: 120px !important;
+      text-align: center;
+      vertical-align: middle;
+      align-self: center;
+    }
+
+    .mat-card {
+      min-width: max-content;
+      max-width: max-content;
+    }
+
+    .sort-header {
+      display: flex;
+      align-content: center;
+      text-align: center;
+      justify-content: center;
+      font-size: 12pt;
+    }
+
+    .header-cell {
+      font-weight: bold;
+    }
+  }
+
+}
